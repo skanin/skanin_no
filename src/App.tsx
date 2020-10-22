@@ -1,6 +1,6 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import Logo from './components/Logo/Logo';
 
 const App = () => {
 	return (
@@ -8,6 +8,7 @@ const App = () => {
 			<h1>
 				Min nettside <span>❤️</span>
 			</h1>
+			<Logo />
 		</div>
 	);
 };

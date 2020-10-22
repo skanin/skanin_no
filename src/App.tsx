@@ -1,13 +1,10 @@
 import React from 'react';
-import './App.css';
+import './App.less';
 import Logo from './components/Logo/Logo';
 
 const App = () => {
 	return (
 		<div className='App'>
-			<h1>
-				Min nettside <span>❤️</span>
-			</h1>
 			<Logo />
 		</div>
 	);

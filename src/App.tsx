@@ -1,6 +1,7 @@
 import React from 'react';
-import './App.less';
 import Logo from './components/Logo/Logo';
+
+import './App.less';
 
 const App = () => {
 	return (
